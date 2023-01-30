@@ -82,14 +82,14 @@ main {
     align-items: center;
     flex-direction: column;
     gap: 10px;
-    margin-top: 100px;
+    padding: 75px;
 }
 
 .info .message {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .row-squares {
@@ -99,6 +99,7 @@ main {
     margin: 10px;
     gap: 50px;
     flex-wrap: wrap;
+    padding: 50px;
 }
 
 .square {
@@ -118,6 +119,35 @@ main {
 
 .square-text {
     font-size: 18px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    margin-top: 25px;
+    padding: 75px;
+}
+
+.quote-text {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    max-width: 1000px;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: right;
+    font-size: 24px;
+    padding-left: 700px;
 }
 
 
